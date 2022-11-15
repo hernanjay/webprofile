@@ -9,7 +9,7 @@ body{
 }
 
 #pageHeaderBg{
-	background-image: url(./images/headerBg.png);
+	background-image: url(./images/headerBG.png);
 	min-height: 100vh;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -145,7 +145,7 @@ body{
 
 #sectionTwo{
 	position: relative;
-	background-image: url(./images/headerBg.png);
+	background-image: url(./images/headerBG.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -186,7 +186,7 @@ body{
 	position: absolute;
 	top: 13vh;
 	left: 0px;
-	background-image: url(./images/headerBg.png);
+	background-image: url(./images/headerBG.png);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
