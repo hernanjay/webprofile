@@ -1,0 +1,261 @@
+@media only screen and (min-width: 992px) {
+
+*{
+	font-size: 16px;
+}
+
+body{
+	background-color: rgb(0, 0, 0);
+}
+
+#pageHeaderBg{
+	background-image: url(./images/headerBg.png);
+	min-height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#pageHeaderBgOverlay{
+	background-color: rgba(0, 0, 0, 0.75);
+	min-height: 100vh;
+}
+
+#pageHeaderPfp{
+	position: absolute;
+	height: auto;
+	width: 50%;
+	top: 5vh;
+	left: 5vh;
+	z-index: 2;
+}
+
+#pageHeaderPfp img{
+	border: 0px solid;
+	border-radius: 50%;
+}
+
+#pageHeaderText{
+	background-color: rgba(0, 0, 0, 0.0);
+	position: absolute;
+	text-align: right;
+	width: 55vw;
+	top: 13vh;
+	right: 5vw;
+	color: white;
+	z-index: 2;
+	padding: 1rem;
+}
+
+#pageHeaderText h1{
+	font-size: 1.5rem;
+}
+
+#pageHeaderText p{
+	font-size: 0.5rem;
+}
+
+#largeNavBar{
+	z-index: 1;
+	display: inline-block;
+	float: right;
+	position: sticky;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 8vh;
+}
+
+#largeNavBarItems{
+	float: right;
+	margin-right: 7vw;
+
+}
+
+#largeNavBar a{
+	text-align: center;
+	display: inline-block;
+	color: lightgray;
+	font-size: 0.5rem;
+	padding-right: 2em;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+#largeNavBar a:hover{
+	color: white;
+}
+
+#largeBody{
+	position: relative;
+	top: -40vh;
+}
+
+#sectionOne{
+	display: inline-block;
+	min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#sectionOneTitle{
+	position: absolute;
+	display: inline-block;
+	right: 50vh;
+	top: 45vh;
+	color: #B2B2B2;
+}
+
+#largeProjects{
+	display: inline-block;
+	position: relative;
+	top: 65vh;
+	width: auto;
+	min-height: 100vh;
+}
+
+#largeProjectsCards{
+	height: 100vh;
+}
+
+#largeProjectsCards>div>div>div>p{
+	text-justify: inter-word;
+	font-size: 0.5rem;
+}
+
+#largeProjectsCards>div>div>div>h1{
+	text-align: center;
+	font-size: 0.75rem;
+}
+
+#card1{
+	margin-bottom: 25%;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#card2{
+	margin-bottom: 15%;
+	margin-right: 1rem;
+}
+
+#card3{
+	margin-bottom: 5%;
+	margin-right: 1rem;
+}
+
+#sectionTwo{
+	position: relative;
+	background-image: url(./images/headerBg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+}
+
+#sectionTwoTitle{
+	position: absolute;
+	display: inline-block;
+	bottom: -26vh;
+	left: 41%;
+	color: white;
+	z-index: 1;
+}
+
+#sectionTwoBgOverlay{
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.75);
+	min-height: 100vh;
+}
+
+#largeToolsList{
+	position: absolute;
+	display: block;
+	bottom: -90vh;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 5vh;
+	border-bottom: 1px solid whitesmoke;
+}
+
+#googleMaps{
+	position: relative;
+	top: 25vh;
+}
+
+#googleMapsBG{
+	position: absolute;
+	top: 13vh;
+	left: 0px;
+	background-image: url(./images/headerBg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -2;
+	opacity: 0.25;
+	height: 100vh;
+	width: 100vw;
+}
+
+#largeContactIcon a{
+	 text-decoration: none !important;
+}
+
+#largeContactIcon img{
+	opacity: 0.5;
+}
+
+
+#largeContactIcon img:hover{
+	 opacity: 1;
+}
+
+#largeFooter{
+	position: relative;
+	top: 25vh;
+}
+
+#largeFooterText p{
+	font-size: 0.5rem;
+	padding: 0px;
+	margin: 0px;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+}
+
+}
+
+@media only screen and (min-width: 768px) {
+
+*{
+	font-size: 32px;
+}
+
+#map {
+  height: 75vh;
+  width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+*{
+	font-size: 16px;
+}
+
+#map {
+  height: 50vh;
+  width: 100%;
+}
+
+
+}
+
+*{
+	font-family: 'Roboto Mono';
+	margin: 0px;
+	padding: 0px;
+}
